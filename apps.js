@@ -8,9 +8,11 @@ navigator.mozApps.mgmt.getAll().onsuccess = function(ev) {
     }
 
     var img = document.createElement('img');
-    img.src = app.origin + app.manifest.icons['120'];
-
-    li.appendChild(img);
+    if (app.manifest.icons) {
+      img.src = app.origin + app.manifest.icons['120'];
+  
+      li.appendChild(img);
+    }
 
     document.querySelector('#apps').appendChild(li);
   })
