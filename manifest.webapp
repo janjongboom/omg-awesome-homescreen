@@ -1,0 +1,27 @@
+{
+  "name": "OMG AWESOME HOMESCREEN",
+  "description": "FirefoxOS Homescreen with tiles & Social support",
+  "launch_path": "/index.html",
+  "type": "certified",
+  "role": "homescreen",
+  "developer": {
+    "name": "Jan Jongboom",
+    "url": "https://github.com/michalbe/"
+  },
+  "permissions": {
+    "webapps-manage":{}
+  },
+  "locales": {
+    "en-US": {
+    "name": "Tile Screen",
+    "description": "FirefoxOS Homescreen with tiles & Social support"
+    }
+  },
+  "default_locale": "en-US",
+  "icons": {
+    "30": "/style/icons/icon.png"
+  },
+  "orientation": "portrait-primary",
+  "activities": {},
+  "messages": []
+}
